@@ -16,6 +16,8 @@ This is a review demo with placeholder contact details, labelled stock imagery a
 
 The GitHub Pages workflow runs on pushes to `master` and can also be run manually. It checks the JavaScript, runs `npm run build`, and publishes only `_site/`. The build copies the HTML, CSS, JavaScript and image assets. Local previews, documentation and the development server are not included in the website artifact.
 
+Published CSS and JavaScript filenames include a content hash so a fresh page load gets the matching assets after each deployment. Local development uses the original filenames.
+
 ## Preview
 
 Run `npm start` and open http://127.0.0.1:4173.
